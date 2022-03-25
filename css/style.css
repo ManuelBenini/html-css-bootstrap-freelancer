@@ -74,7 +74,7 @@ header .container{
     }
   /* /DESCRIPTION SECTION */
 
-  /* CONTACT ME */
+  /* CONTACT ME SECTION */
     #mb-contact-me{
       margin: 20px 0;
     }
@@ -86,7 +86,7 @@ header .container{
     #mb-contact-me .container .row div:last-child{
       color: #2D3F50;
     }
-  /* /CONTACT ME */
+  /* /CONTACT ME SECTION */
 
 /* /MAIN */
 
@@ -98,17 +98,22 @@ header .container{
     background-color: #3A546D;
   }
 
-  #mb-about{
-    padding: 20px 0;
-  }
+  /* ABOUT SECTION */
+    #mb-about{
+      padding: 20px 0;
+    }
+  /* ABOUT SECTION */
 
-  .copyright{
-    height: 50px;
-    background-color: rgba(192, 27, 27,.2);
-      border: 1px solid black;
-  }
+  /* COPYRIGHT SECTION */
+    .copyright{
+      height: 50px;
+      background-color: rgba(192, 27, 27,.2);
+        border: 1px solid black;
+    }
 
-  .mb-start{
-    color: #1FAC94;
-  }
+    .mb-start{
+      color: #1FAC94;
+    }
+  /* COPYRIGHT SECTION */
+  
 /* /FOOTER */
