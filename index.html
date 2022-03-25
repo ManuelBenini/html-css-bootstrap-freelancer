@@ -14,7 +14,7 @@
 <body>
 
   <header>
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container d-flex align-items-center justify-content-between color">
       <a href="#">Start Bootstrap</a> 
 
       <a href="#">H</a>
@@ -24,17 +24,20 @@
   <!-- JUMBOTRON -->
   <div class="jumbotron">
     <div class="mb-box debug w-75 h-50 text-center">Immagine, testo ed immagine</div>
-    <div class="mb-box debug w-75 h-25">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+    <div class="mb-box debug w-75 h-25 text-center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
   </div>
   <!-- /JUMBOTRON -->
 
   <main>
 
-    <!-- IAMGES SECTION -->
+    <!-- IMAGES SECTION -->
     <section id="mb-images">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-1 debug">
-          <div class="col debug d-flex justify-content-center align-items-center">PORTFOLIO ed immagine</div>
+        
+        <div class="debug d-flex justify-content-center align-items-center">PORTFOLIO ed immagine</div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 debug">
+          
           <div class="col debug h200">Immagine</div>
           <div class="col debug h200">Immagine</div>
           <div class="col debug h200">Immagine</div>
@@ -49,15 +52,15 @@
     <!-- DESCRIPTION SECTION -->
     <section id="mb-description">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-1 debug">
-          <div class="col-8 debug offset-2 d-flex justify-content-center align-items-center">ABOUT ed immagine</div>
-          <div class="col-8 debug offset-2">
+        <div class="row row-cols-1  row-cols-md-2 debug justify-content-center">
+          <div class="col-8 col-md-12 debug d-flex justify-content-center align-items-center">ABOUT ed immagine</div>
+          <div class="col-8 col-md-5 debug">
             Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization
           </div>
-          <div class="col-8 debug offset-2">
+          <div class="col-8 col-md-5 debug">
             Whether you-re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this themplate is the perfect starting point
           </div>
-          <div class="col-8 debug offset-2 d-flex justify-content-center align-items-center">Download</div>
+          <div class="col-8 col-md-10 debug d-flex justify-content-center align-items-center">Download</div>
         </div>
       </div>
     </section>
@@ -66,9 +69,9 @@
     <!-- CONTACT ME SECTION -->
     <section id="mb-contact-me">
       <div class="container debug">
-        <div class="row row-cols-1 row-cols-sm-1">
-          <div class="col-8 debug offset-2 d-flex justify-content-center align-items-center">CONTACT ME ed immagine</div>
-          <div class="col-8 debug offset-2">FORM</div>
+        <div class="row row-cols-1 justify-content-center">
+          <div class="col-8 col-md-10 debug d-flex justify-content-center align-items-center">CONTACT ME ed immagine</div>
+          <div class="col-8 col-md-10 debug">FORM</div>
         </div>
       </div>
     </section>
@@ -79,18 +82,18 @@
   <footer>
 
     <!-- ABOUT SECTION -->
-    <section id="mb-about">
+    <section id="footer-top">
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-1 debug">
-          <div class="col-10 debug offset-1 d-flex flex-column justify-content-center align-items-center">
+        <div class="row row-cols-1 justify-content-center debug">
+          <div class="col-10 col-md-4 debug d-flex flex-column justify-content-center align-items-center">
             <div>LOCATION</div>
-            <div>2215 John Daniel Drive Clark, MO 54243</div>
+            <div class="text-center">2215 John Daniel Drive Clark, MO 54243</div>
           </div>
-          <div class="col-10 debug offset-1 d-flex flex-column justify-content-center align-items-center">
+          <div class="col-10 col-md-4 debug d-flex flex-column justify-content-center align-items-center">
             <div>AROUND THE WEB</div>
             <div>Images Images Images Images </div>
           </div>
-          <div class="col-10 debug offset-1 d-flex flex-column justify-content-center align-items-center">
+          <div class="col-10 col-md-4 debug d-flex flex-column justify-content-center align-items-center">
             <div>ABOUT FREELANCER</div>
             <div>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="mb-start">Start Bootstrap</a>.</div>
           </div>
@@ -100,8 +103,8 @@
     <!-- /ABOUT SECTION -->
 
     <!-- COPYRIGHT SECTION -->
-    <section id="copyright">
-      <div class="container-fluid debug d-flex justify-content-center align-items-center">
+    <section id="footer-bottom">
+      <div class="copyright d-flex justify-content-center align-items-center">
         <div>Copyright Your Website 2019</div>
       </div>
     </section>

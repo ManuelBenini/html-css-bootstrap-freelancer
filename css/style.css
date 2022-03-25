@@ -1,7 +1,6 @@
 /* UTILIS */
 
   body{
-    font-weight: bold;
     color: white;
   }
 
@@ -14,6 +13,10 @@
     background-color: rgba(192, 27, 27,.2);
     border: 1px solid black;
     min-height: 100px;
+  }
+
+  .color{
+    background-color: brown;
   }
 
   .h50{
@@ -98,22 +101,26 @@ header .container{
     background-color: #3A546D;
   }
 
-  /* ABOUT SECTION */
-    #mb-about{
+  /* FOOTER-TOP SECTION */
+    #footer-top{
       padding: 20px 0;
-    }
-  /* ABOUT SECTION */
-
-  /* COPYRIGHT SECTION */
-    .copyright{
-      height: 50px;
-      background-color: rgba(192, 27, 27,.2);
-        border: 1px solid black;
     }
 
     .mb-start{
       color: #1FAC94;
     }
-  /* COPYRIGHT SECTION */
-  
+  /* FOOTER-TOP SECTION */
+
+  /* FOOTER-BOTTOM SECTION */
+    #footer-bottom{
+      background-color: #2C3E50;
+      height: 80px;
+    }
+
+    #footer-bottom .copyright{
+      height: 100%;
+      font-size: 10px;
+    }
+  /* FOOTER-BOTTOM SECTION */
+
 /* /FOOTER */
