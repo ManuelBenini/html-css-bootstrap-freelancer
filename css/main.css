@@ -1,0 +1,147 @@
+/* JUMBOTRON */
+._jumbotron{
+  margin-top: 60px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ABC9C;
+}
+
+._jumbotron h1{
+  font-size: 40px;
+}
+
+._jumbotron .image{
+  height: 160px;
+}
+
+._jumbotron img{
+  width: 100%;
+  height: 100%;
+}
+
+._jumbotron ._information{
+  padding-top: 10px;
+}
+/* /JUMBOTRON */
+
+
+/* MAIN */
+
+  /* PORTFOLIO SECTION */
+  #_portfolio{
+    margin: 30px 0;
+  }
+  
+  #_portfolio h2{
+    color: black;
+  }
+
+  #_portfolio .fa-star{
+    color: #2C3E50;
+  }
+
+  #_portfolio .container .row > .col{
+    margin: 10px 0;
+  }
+
+  #_portfolio .container img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #_portfolio .container .image{
+    position: relative;
+  }
+
+  #_portfolio .container .image .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 136, 114,0.7);
+    position: absolute;
+    top: 0;
+    display: none;
+    border-radius: 10px;
+  }
+
+  #_portfolio .container .image ._plus-hover{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+  }
+
+  #_portfolio .container .image:hover ._plus-hover{
+    display: block;
+  }
+
+  #_portfolio .container .image:hover .overlay{
+    display: block;
+  }
+/* /PORTFOLIO SECTION */
+
+/* ABOUT SECTION */
+  #_about{
+    background-color: #1ABC9C;
+    padding: 35px 0;
+  }
+
+  #_about ._download{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px
+  }
+
+  #_about ._download:hover{
+    background-color: white;
+    color: black;
+  }
+/* /ABOUT SECTION */
+
+/* CONTACT ME SECTION */
+  #_contact-me{
+    margin: 20px 0;
+  }
+
+  #_contact-me h2{
+    color: black;
+  }
+
+  #_contact-me .fa-solid{
+    color: #2C3E50;
+  }
+
+  #_contact-me .container .row div > *{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+  }
+
+  #_contact-me .container .row div > *::placeholder{
+    color: #2C3E50;
+    opacity: 1;
+  }
+
+  #_contact-me .container .row div textarea{
+    margin-bottom: 5px;
+  }
+
+  #_contact-me .container .row ._send{
+    padding: 5px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1ABC9C;
+    width: 55px;
+  }
+
+  #_contact-me .container .row ._send:hover{
+    background-color: #107a65;
+  }
+/* /CONTACT ME SECTION */
+
+/* /MAIN */

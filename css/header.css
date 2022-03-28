@@ -1,0 +1,42 @@
+header{
+  background-color: #2C3E50;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header .container{
+  height: 100%;
+}
+
+._start h2{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+._hamburger{
+  height: 25px;
+  padding: 0 9px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+._hamburger a{
+  color: #8D8C8B;
+}
+
+._list{
+  padding-top: 10px;
+}
+
+._list ul{
+  padding-left: 0;
+}
+
+._list ul li{
+margin-left: 20px;
+font-weight: bold;
+font-size: 12px;
+}

@@ -9,50 +9,76 @@
 
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous'/>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/generic.css">
+  <link rel="stylesheet" href="css/utils.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/query.css">
 
   <title>Bootstrap Freelancer</title>
 </head>
 <body>
 
   <header>
+    
     <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="_start _color">
-        <a href="#"> <h4>START BOOTSTRAP</h4></a> 
+      <div class="_start">
+        <a href="#">
+          <h2>START BOOTSTRAP</h2>
+        </a> 
       </div>
       
+      <!-- HAMBURGER CHE VIENE VISUALIZZATO DA SM AD INFERIORE -->
       <div class="_hamburger d-flex justify-content-center align-items-center d-md-none">
         <a href="#" class="">
-          <i class="fa-solid fa-bars fa-lg"></i>
+          <i class="fa-solid fa-bars"></i>
         </a>
       </div>
+      <!-- /HAMBURGER CHE VIENE VISUALIZZATO DA SM AD INFERIORE -->
       
-      <div class="_list d-flex justify-content-center align-items-center _color">
-        <ul class="d-none d-md-flex">
+      <!-- LISTA CHE VIENE VISUALIZZATA DA MD IN POI  -->
+      <div class="_list d-none d-md-block justify-content-center align-items-center">
+        <ul class="d-flex">
           <li><a href="#">PORTFOLIO</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
       </div>
-
+      <!-- /LISTA CHE VIENE VISUALIZZATA DA MD IN POI  -->
     </div>
+
   </header>
 
   <!-- JUMBOTRON -->
   <div class="_jumbotron">
-    <div class="_box _debug w-75 h-50 d-flex flex-column         justify-content-between align-items-center">
-      <div class="image h-50 w-75 _color">
-        <img src="" alt="" class="">
+
+    <!-- IMMAGINE E TITOLO -->
+    <div class="container d-flex flex-column align-items-center">
+      <div class="image">
+        <img src="img/avatar.svg" alt="" class="">
       </div>
-      <h2>START BOOTSTRAP</h2>
+      <h1>START BOOTSTRAP</h1>
     </div>
-    <div class="_box _debug w-75 h-25 d-flex flex-column         justify-content-between align-items-center">
-      <div class="image h-50 w-75 _color">
-        <img src="" alt="" class="">
+    <!-- /IMMAGINE E TITOLO -->
+
+    <!-- INFO -->
+    <div class="container d-flex flex-column align-items-center">
+      <!-- STELLA -->
+      <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="_sx-bar"></div>
+        <i class="fa-solid fa-star"></i>
+        <div class="_dx-bar"></div>
       </div>
-      GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+      <!-- /STELLA -->
+
+      <div class="_information">
+        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+      </div>
     </div>
+    <!-- /INFO -->
+
   </div>
   <!-- /JUMBOTRON -->
 
@@ -60,39 +86,114 @@
 
     <!-- PORTFOLIO SECTION -->
     <section id="_portfolio">
-      <div class="container">
-        
-        <div class="_debug d-flex flex-column justify-content-center align-items-center"> 
-          <h3>PORTFOLIO</h3> 
-          <div>---STAR---</div>
-        </div>
-
-        <!-- CARD -->
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 _debug">
-          <div class="col _debug _h200">Immagine</div>
-          <div class="col _debug _h200">Immagine</div>
-          <div class="col _debug _h200">Immagine</div>
-          <div class="col _debug _h200">Immagine</div>
-          <div class="col _debug _h200">Immagine</div>
-          <div class="col _debug _h200">Immagine</div>
-        </div>
-        <!-- /CARD -->
+      
+      <div class="container text-center"> 
+        <h2>PORTFOLIO</h2>
       </div>
+
+      <!-- STELLA SCURA -->
+      <div class="container">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <div class="_sx-bar-dark"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="_dx-bar-dark"></div>
+        </div>
+      </div>
+      <!-- /STELLA SCURA -->
+      
+      <!-- CARD -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <div class="image">
+              <img src="img/cabin.png" alt="">
+              <div class="overlay"></div>
+              <div class="_plus-hover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image">
+              <img src="img/cake.png" alt="">
+              <div class="overlay"></div>
+              <div class="_plus-hover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image">
+              <img src="img/circus.png" alt="">
+              <div class="overlay"></div>
+              <div class="_plus-hover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image">
+              <img src="img/game.png" alt="">
+              <div class="overlay"></div>
+              <div class="_plus-hover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image">
+              <img src="img/safe.png" alt="">
+              <div class="overlay"></div>
+              <div class="_plus-hover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image">
+              <img src="img/submarine.png" alt="">
+              <div class="overlay"></div>
+              <div class="_plus-hover">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /CARD -->
+
     </section>
     <!-- /PORTFOLIO SECTION -->
 
+
     <!-- ABOUT SECTION -->
     <section id="_about">
+
+      <div class="container text-center"> 
+        <h2>ABOUT</h2> 
+      </div>
+
       <div class="container">
-        <div class="row row-cols-1  row-cols-md-2 _debug justify-content-center">
-          <div class="col-12 col-sm-12 col-md-12  _debug d-flex justify-content-center align-items-center">ABOUT ed immagine</div>
-          <div class="col-8 col-md-5 _debug">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <div class="_sx-bar"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="_dx-bar"></div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8 col-md-4 pt-3">
             Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization
           </div>
-          <div class="col-8 col-md-5 _debug">
+          <div class="col-8 col-md-4 pt-3">
             Whether you-re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this themplate is the perfect starting point
           </div>
-          <div class="col-8 col-md-10 _debug d-flex justify-content-center align-items-center">Download</div>
+          <div class="col-8 d-flex justify-content-center align-items-center pt-4">
+            <a href="#" class="_download">
+              <i class="fa-solid fa-download"></i> Download
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -100,10 +201,27 @@
 
     <!-- CONTACT ME SECTION -->
     <section id="_contact-me">
-      <div class="container _debug">
-        <div class="row row-cols-1 justify-content-center">
-          <div class="col-8 col-md-10 _debug d-flex flex-column justify-content-center align-items-center"> <h3>CONTACT ME</h2>immagine</div>
-          <div class="col-8 col-md-10 _debug">FORM</div>
+      <div class="container text-center"> 
+        <h2>CONTACT ME</h2> 
+      </div>
+
+      <div class="container">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <div class="_sx-bar-dark"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="_dx-bar-dark"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+              <input type="text" id="name" placeholder="Name">
+              <input type="email" id="email" placeholder="Email Address">
+              <input type="tel" id="Phone-number" placeholder="Phone Number">
+              <textarea name="Message" id="" cols="0" rows="5" placeholder="Message"></textarea>
+              <input type="submit" value="Send" class="_send">
+          </div>
         </div>
       </div>
     </section>
@@ -114,28 +232,34 @@
   <footer>
 
     <!-- SOCIAL SECTION -->
-    <section id="footer-top">
+    <section id="_footer-top">
       <div class="container">
-        <div class="row row-cols-1 justify-content-center _debug">
-          <div class="col-10 col-md-4 _debug d-flex flex-column justify-content-center align-items-center">
-            <div>LOCATION</div>
-            <div class="text-center">2215 John Daniel Drive Clark, MO 54243</div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+          <div class="col text-center p-3">
+            <h6>LOCATION</h6>
+            <span>2215 John Daniel Drive Clark, MO 54243</span>
           </div>
-          <div class="col-10 col-md-4 _debug d-flex flex-column justify-content-center align-items-center">
-            <div>AROUND THE WEB</div>
-            <div>Images Images Images Images </div>
+          <div class="col text-center p-3">
+            <h6>AROUND THE WEB</h6>
+            <div>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
           </div>
-          <div class="col-10 col-md-4 _debug d-flex flex-column justify-content-center align-items-center">
-            <div>ABOUT FREELANCER</div>
-            <div>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="_start">Start Bootstrap</a>.</div>
+          <div class="col text-center p-3">
+            <h6>ABOUT FREELANCER</h6>
+            <span>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="_start">Start Bootstrap</a>.</span>
           </div>
+
         </div>
       </div>
     </section>
     <!-- /SOCIAL SECTION -->
 
     <!-- COPYRIGHT SECTION -->
-    <section id="footer-bottom">
+    <section id="_footer-bottom">
       <div class="copyright d-flex justify-content-center align-items-center">
         <div>Copyright Your Website 2019</div>
       </div>

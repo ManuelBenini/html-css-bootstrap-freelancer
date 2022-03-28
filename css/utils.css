@@ -1,0 +1,34 @@
+._sx-bar,
+._dx-bar{
+  border: 1px solid white;
+  width: 12%;
+  margin: 0 20px;
+}
+
+._sx-bar-dark,
+._dx-bar-dark{
+  border: 1px solid #2C3E50;
+  width: 13%;
+  margin: 0 20px;
+}
+
+
+/* DEBUG */
+._debug{
+  background-color: rgba(192, 27, 27,.2);
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+._color{
+  background-color: brown;
+}
+
+._h50{
+  height: 50px;
+}
+
+._h200{
+  min-height: 200px;
+}
+/* /DEBUG */
