@@ -67,6 +67,10 @@
     padding-top: 10px;
   }
 
+  ._list ul{
+    padding-left: 0;
+    }
+
   ._list ul li{
   margin-left: 20px;
   font-weight: bold;
@@ -92,19 +96,19 @@
 
 /* MAIN */
 
-  /* IMAGES SECTION */
-    #_images{
+  /* PORTFOLIO SECTION */
+    #_portfolio{
       margin: 30px 0;
     }
 
-    #_images .container .row > .col{
+    #_portfolio .container .row > .col{
       margin: 10px 0;
     }
 
-    #_images .container h3{
+    #_portfolio .container h3{
       color: black;
     }
-  /* /IMAGES SECTION */
+  /* /PORTFOLIO SECTION */
 
   /* ABOUT SECTION */
     #_about{

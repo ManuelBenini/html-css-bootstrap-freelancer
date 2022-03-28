@@ -18,24 +18,23 @@
   <header>
     <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="_start">
+      <div class="_start _color">
         <a href="#"> <h4>START BOOTSTRAP</h4></a> 
       </div>
       
-      <div class="_list d-flex justify-content-center align-items-center">
+      <div class="_hamburger d-flex justify-content-center align-items-center d-md-none">
+        <a href="#" class="">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </a>
+      </div>
+      
+      <div class="_list d-flex justify-content-center align-items-center _color">
         <ul class="d-none d-md-flex">
           <li><a href="#">PORTFOLIO</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
       </div>
-
-      <div class="_hamburger d-flex justify-content-center align-items-center d-md-none">
-        <a href="#" class="">
-          <i class="fa-solid fa-bars fa-lg"></i>
-        </a>
-      </div>
-
 
     </div>
   </header>
@@ -59,14 +58,17 @@
 
   <main>
 
-    <!-- IMAGES SECTION -->
-    <section id="_images">
+    <!-- PORTFOLIO SECTION -->
+    <section id="_portfolio">
       <div class="container">
         
-        <div class="_debug d-flex flex-column justify-content-center align-items-center"> <h3>PORTFOLIO</h3> immagine</div>
+        <div class="_debug d-flex flex-column justify-content-center align-items-center"> 
+          <h3>PORTFOLIO</h3> 
+          <div>---STAR---</div>
+        </div>
 
+        <!-- CARD -->
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 _debug">
-          
           <div class="col _debug _h200">Immagine</div>
           <div class="col _debug _h200">Immagine</div>
           <div class="col _debug _h200">Immagine</div>
@@ -74,9 +76,10 @@
           <div class="col _debug _h200">Immagine</div>
           <div class="col _debug _h200">Immagine</div>
         </div>
+        <!-- /CARD -->
       </div>
     </section>
-    <!-- /IMAGES SECTION -->
+    <!-- /PORTFOLIO SECTION -->
 
     <!-- ABOUT SECTION -->
     <section id="_about">
