@@ -1,15 +1,21 @@
-._sx-bar,
-._dx-bar{
-  border: 1px solid white;
-  width: 12%;
+._star::before,
+._star::after{
+  content: '';
+  display: inline-block;
   margin: 0 20px;
+  width: 15%;
+  height: 4px;
+  background-color: white;
 }
 
-._sx-bar-dark,
-._dx-bar-dark{
-  border: 1px solid #2C3E50;
-  width: 13%;
-  margin: 0 20px;
+._star._star-dark::before,
+._star._star-dark::after{
+  background-color: black;
+}
+
+.fa-solid.fa-star{
+  font-size: 25px;
+  vertical-align: middle;
 }
 
 

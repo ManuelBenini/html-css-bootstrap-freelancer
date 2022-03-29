@@ -25,6 +25,11 @@
 ._jumbotron ._information{
   padding-top: 10px;
 }
+
+._information span{
+  font-size: 18px;
+  margin: 0 20px;
+}
 /* /JUMBOTRON */
 
 
@@ -49,11 +54,13 @@
 
   #_portfolio .container img{
     width: 100%;
-    border-radius: 10px;
   }
 
   #_portfolio .container .image{
     position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
   }
 
   #_portfolio .container .image .overlay{
@@ -61,26 +68,14 @@
     height: 100%;
     background-color: rgba(32, 136, 114,0.7);
     position: absolute;
-    top: 0;
     display: none;
-    border-radius: 10px;
-  }
-
-  #_portfolio .container .image ._plus-hover{
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 80px;
   }
 
-  #_portfolio .container .image:hover ._plus-hover{
-    display: block;
-  }
-
   #_portfolio .container .image:hover .overlay{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 /* /PORTFOLIO SECTION */
 
